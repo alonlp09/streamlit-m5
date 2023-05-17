@@ -1,5 +1,4 @@
 # Importamos librerias
-import st_aggrid
 import streamlit as st
 import pandas as pd
 import requests
