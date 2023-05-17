@@ -1,13 +1,15 @@
 # Importamos librerias
-from st_aggrid.grid_options_builder import GridOptionsBuilder
-from streamlit_folium import st_folium
-from datetime import datetime
-from st_aggrid import AgGrid
+import st_aggrid
 import streamlit as st
 import pandas as pd
 import requests
 import folium
 import io
+
+from st_aggrid.grid_options_builder import GridOptionsBuilder
+from streamlit_folium import st_folium
+from datetime import datetime
+from st_aggrid import AgGrid
 
 # buffer to use for excel writer
 buffer = io.BytesIO()
